@@ -93,7 +93,7 @@ import { initFormatters } from '${relativeFileImportPath(formattersTemplateFileN
 ${importTypes(relativeFileImportPath(typesFileName), 'Locales', usesNamespaces && 'Namespaces', 'Translations')}
 import { loadedFormatters, loadedLocales, locales } from '${relativeFileImportPath(utilFileName)}'
 
-const localeTranslationLoaders = {${localesTranslationLoaders}
+export const localeTranslationLoaders = {${localesTranslationLoaders}
 }
 ${namespaceImports}
 
